@@ -1,0 +1,201 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brassica Store</title>
+    <style>
+        .marquee-container {
+            background-color: white;
+            padding: 10px 0;
+        }
+        .marquee {
+            color: maroon;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        body {
+            background-color: maroon;
+            color: #fff;
+            font-family: 'Arial Black', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            font-family: Algerian;
+            font-size: 4rem;
+            margin-top: 30px;
+            color: #FFD700;
+        }
+        .navbar {
+            text-align: center;
+            margin: 10px;
+            background-color: maroon;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: #FFD700;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        .navbar a:hover {
+            color: #fff;
+        }
+        .content {
+            margin: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            color: #FFD700;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin: 10px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            background-color: #FFD700;
+            padding: 20px 0;
+            color: maroon;
+            font-weight: bold;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery figure {
+            display: inline-block;
+            margin: 10px;
+            border: 5px solid #fff;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #FFD700;
+            transition: transform 0.3s ease;
+        }
+        .gallery figure:hover {
+            transform: scale(1.1);
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #556B2F;
+            border-radius: 10px;
+        }
+        .gallery figcaption {
+            color: black;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .contact a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">.::Brassica Store::.</div>
+
+    <div class="marquee-container">
+        <marquee class="marquee">Selamat datang di Brassica Store! Kami menyediakan berbagai kebutuhan Anda dengan kualitas terbaik. Belanja sekarang dan nikmati penawaran menarik!</marquee>
+    </div>
+
+    <div class="navbar">
+        <a href="UTS_fita.html">|Home|</a>
+        <a href="UTS_fita_sayuran.html">|Ragam Sayuran|</a>
+        <a href="UTS_fita_bumbu.html">|Bumbu Masakan|</a>
+        <a href="UTS_fita_cemilan.html">|Aneka Cemilan|</a>
+
+    </div>
+
+    
+    
+
+    <div class="content">
+        
+<p>Aneka cemilan tidak hanya menjadi teman setia saat bersantai, tetapi juga dapat memberikan berbagai manfaat kesehatan. Memilih cemilan yang tepat dapat membantu menjaga energi sepanjang hari, memberikan asupan nutrisi tambahan, dan memperbaiki suasana hati</p> 
+<p>Berikut adalah beberapa jenis cemilan yang kami sediakan :</p>
+
+        <div class="gallery">
+            <figure>
+                <img src="kurma.jpg" alt="Kurma">
+                <figcaption>Kurma</figcaption>
+            </figure>
+		 <figure>
+                <img src="stiktalas.jpg" alt="Stiktalas">
+                <figcaption>Stik Talas</figcaption>
+            </figure>
+		 <figure>
+                <img src="molring.jpeg" alt="Molring">
+                <figcaption>Molring</figcaption>
+            </figure>
+		 <figure>
+                <img src="mangleng.jpg" alt="Mangleng">
+                <figcaption>Mangleng</figcaption>
+            </figure>
+            <figure>
+                <img src="kacang.jpg" alt="Kacang">
+                <figcaption>Kacang</figcaption>
+            </figure>
+            <figure>
+                <img src="keripikpisang.jpg" alt="Keripik Pisang">
+                <figcaption>Keripik Pisang</figcaption>
+            </figure>
+		 <figure>
+                <img src="keripiksingkong.jpeg" alt="Keripiksingkong">
+                <figcaption>Keripik Singkong</figcaption>
+            </figure>
+            <figure>
+                <img src="keripikubi.jpeg" alt="Keripik Ubi">
+                <figcaption>Keripik Ubi</figcaption>
+            </figure>
+            <figure>
+                <img src="keripikkentang.jpg" alt="Keripik Kentang">
+                <figcaption>Keripik Kentang</figcaption>
+            </figure>
+            <figure>
+                <img src="sukun.jpeg" alt="Keripik Sukun">
+                <figcaption>Keripik Sukun</figcaption>
+            </figure>
+            <figure>
+                <img src="tempe.jpg" alt="Keripik Tempe">
+                <figcaption>Keripik Tempe</figcaption>
+            </figure>
+            <figure>
+                <img src="empingmelinjo.jpg" alt="Emping Melinjo">
+                <figcaption>Emping Melinjo</figcaption>
+            </figure>
+		<figure>
+                <img src="empingjagung.jpg" alt="Emping Jagung">
+                <figcaption>Emping Jagung</figcaption>
+            </figure>
+            <figure>
+                <img src="beras.jpg" alt="Rengginang">
+                <figcaption>Rengginang</figcaption>
+            </figure>
+		 <figure>
+                <img src="kerupukseblak.jpg" alt="Kerupukseblak">
+                <figcaption>Kerupuk Seblak</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Brassica Store
+    </div>
+</body>
+</html>
